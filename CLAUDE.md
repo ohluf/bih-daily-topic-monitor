@@ -691,3 +691,148 @@ Before publishing:
 10. verify compliance with `DAILY_BRIEF_STANDARD.md`.
 
 Do not publish a second briefing for the same date unless explicitly instructed to issue a corrected or updated version.
+
+
+# Topic-Specific Early Warning Indicator Frameworks
+
+The repository contains six topic-specific analytical indicator frameworks.
+
+These files are authoritative for topic-level assessment, escalation calibration, false-positive control, evidence interpretation, and watchlist construction.
+
+The files are:
+
+- `indicators/01_TENSION_ESCALATION.md`
+  - linked to `TOP-BIH-TENSION-ESCALATION`
+
+- `indicators/02_RADICAL_PARAMILITARY_ACTIVITY.md`
+  - linked to `TOP-BIH-RADICAL-PARAMILITARY-ACTIVITY`
+
+- `indicators/03_INTERETHNIC_SECURITY_INCIDENTS.md`
+  - linked to `TOP-BIH-INTERETHNIC-SECURITY-INCIDENTS`
+
+- `indicators/04_DISINFORMATION_FOREIGN_NETWORKS.md`
+  - linked to `TOP-BIH-DISINFORMATION-FOREIGN-NETWORKS`
+
+- `indicators/05_FOREIGN_PRESENCE.md`
+  - linked to `TOP-BIH-FOREIGN-PRESENCE`
+
+- `indicators/06_KOSOVO_BIH_SPILLOVER.md`
+  - linked to `TOP-KOSOVO-BIH-SPILLOVER`
+
+## Mandatory use rule
+
+For every production monitoring run:
+
+1. Read the relevant topic-specific indicator framework before assigning that topic's:
+   - DAILY STATUS;
+   - DAILY ASSESSMENT;
+   - SIGNIFICANCE;
+   - CONFIDENCE;
+   - Analytical significance;
+   - What to watch next.
+
+2. Apply the linked indicator framework together with:
+   - `MONITORED_TOPICS.md`;
+   - `DAILY_BRIEF_STANDARD.md`;
+   - `SOURCES.md`;
+   - `SEARCH_STRATEGY.md`;
+   - the general analytical rules in this file.
+
+3. Topic-specific frameworks override generic intuition when determining:
+   - what counts as escalation;
+   - what remains routine baseline activity;
+   - what constitutes a false positive;
+   - what evidence threshold is required;
+   - what causal or transfer mechanism must be demonstrated.
+
+4. Do not mechanically count indicators.
+
+5. Do not assign an assessment solely because:
+   - one indicator is listed as HIGH-level;
+   - several LOW-level indicators occur;
+   - media volume increases;
+   - several unrelated developments happen on the same day.
+
+6. Always evaluate:
+   - previous condition;
+   - genuinely new development;
+   - changed risk mechanism;
+   - evidence quality;
+   - repetition;
+   - duration;
+   - geographic spread;
+   - actor capability;
+   - cross-topic linkage.
+
+## Mandatory topic-to-file mapping
+
+Use exactly:
+
+`TOP-BIH-TENSION-ESCALATION`
+→ `indicators/01_TENSION_ESCALATION.md`
+
+`TOP-BIH-RADICAL-PARAMILITARY-ACTIVITY`
+→ `indicators/02_RADICAL_PARAMILITARY_ACTIVITY.md`
+
+`TOP-BIH-INTERETHNIC-SECURITY-INCIDENTS`
+→ `indicators/03_INTERETHNIC_SECURITY_INCIDENTS.md`
+
+`TOP-BIH-DISINFORMATION-FOREIGN-NETWORKS`
+→ `indicators/04_DISINFORMATION_FOREIGN_NETWORKS.md`
+
+`TOP-BIH-FOREIGN-PRESENCE`
+→ `indicators/05_FOREIGN_PRESENCE.md`
+
+`TOP-KOSOVO-BIH-SPILLOVER`
+→ `indicators/06_KOSOVO_BIH_SPILLOVER.md`
+
+## Assessment traceability rule
+
+Before assigning:
+
+`LIMITED ESCALATION`
+
+or:
+
+`ESCALATING`
+
+for any topic, internally identify:
+
+1. the relevant indicator-framework section;
+2. the strongest PRIMARY ASSESSMENT EVIDENCE;
+3. the exact escalation or transfer mechanism;
+4. the previous comparison condition;
+5. the changed risk.
+
+Use internally:
+
+PREVIOUS CONDITION
+→ NEW DEVELOPMENT
+→ CHANGED RISK
+
+For `TOP-KOSOVO-BIH-SPILLOVER`, use:
+
+PREVIOUS CONDITION
+→ KOSOVO-RELATED DEVELOPMENT
+→ DOMESTIC TRANSFER MECHANISM
+→ CHANGED RISK
+
+If this chain cannot be demonstrated:
+
+prefer:
+
+- `STABLE`;
+- `MIXED`;
+- `INSUFFICIENT DATA`;
+- or `NO DEMONSTRATED SPILLOVER`, where applicable.
+
+## Conflict resolution rule
+
+If a generic instruction and a topic-specific indicator framework appear to point toward different conclusions:
+
+1. preserve factual-status discipline;
+2. preserve source-verification discipline;
+3. use the topic-specific framework for topic interpretation;
+4. choose the more conservative assessment when evidence remains insufficient.
+
+Never force escalation because the subject matter is politically sensitive.
